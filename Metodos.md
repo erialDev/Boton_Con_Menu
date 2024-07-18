@@ -60,3 +60,14 @@ DO CASE
 		thisform.PorUnd()	
 ENDCASE
 ```
+```sql
+CREATE CURSOR SQLCAB( ;
+Fecha 		c(40),;
+Fecha2 		c(12),;
+Despachos	n(10),;
+Valor		n(10,2),;
+Bulto		n(10),;
+Kg			n(10),;
+Codigos		n(10),;
+Unidades	n(10))
+```
